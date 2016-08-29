@@ -1,0 +1,16 @@
+Package: IncrementalityTEST
+Title: Bayesian and Bootstrap Hypothesis Testing on a sample of incrementality
+    tests
+Version: 0.0.0.9000
+Authors@R: person("Vladimer", "Kobayashi", email = "vladimer.kobayashi@gmail.com", role = c("aut", "cre"))
+Description: Analyzes a set of incrementality tests.
+Depends:
+    R (>= 3.3.0)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Imports: boot (>= 1.3-18),
+    dplyr (>= 0.5.0),
+    reshape (>= 0.8.5),
+    psych (>= 1.6.6)
