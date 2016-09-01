@@ -1,12 +1,10 @@
 #' Function to calculate Student-t confidence interval
 #'
-#' This function will calculate the confidence interval of a given sample of mean differences.
+#' This function will calculate the Student-t confidence interval of a given sample of mean differences.
 #' @param datawithID
 #' @param confinter
 #' @return Student-t confidence interval
 #' @export
-#' @examples
-#' t_test_cf(datawithID = dataAOVf, confinter)
 
 t_test_cf<-function(datawithID, confinter){
   pair_diff<-datawithID[,2]

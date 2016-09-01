@@ -7,12 +7,12 @@
 test_metric(mydata, metric)
 }
 \arguments{
-\item{mydata}{A Dataframe containg the  variables "iabtest_id", "abt_group", and the metric of choice.}
+\item{mydata}{A dataframe containg the  variables "iabtest_id", "abt_group", and the metric of choice.}
 
 \item{metric}{Chosen metric e.g. RPU, AOV, TPB, and BR}
 }
 \value{
-Data frame contaning the differences of the specified metrics for the control and test across all ab tests
+Dataframe contaning the differences of the specified metrics for the control and test across all ab tests
 }
 \description{
 This function caculates the differences of the specified metrics (e.g. RPU, AOV, etc.).

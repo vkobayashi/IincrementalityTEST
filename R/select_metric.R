@@ -1,9 +1,9 @@
 #' Construct a dataframe containing the ab test id and the differences of the specified metric
 #'
 #' This function caculates the differences of the specified metrics (e.g. RPU, AOV, etc.).
-#' @param mydata A Dataframe containg the  variables "iabtest_id", "abt_group", and the metric of choice.
+#' @param mydata A dataframe containg the  variables "iabtest_id", "abt_group", and the metric of choice.
 #' @param metric Chosen metric e.g. RPU, AOV, TPB, and BR
-#' @return Data frame contaning the differences of the specified metrics for the control and test across all ab tests
+#' @return Dataframe contaning the differences of the specified metrics for the control and test across all ab tests
 #' @export
 test_metric<-function(mydata, metric){
 

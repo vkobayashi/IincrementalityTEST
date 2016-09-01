@@ -10,9 +10,6 @@ t_test_cf(datawithID, confinter)
 Student-t confidence interval
 }
 \description{
-This function will calculate the confidence interval of a given sample of mean differences.
-}
-\examples{
-t_test_cf(datawithID = dataAOVf, confinter)
+This function will calculate the Student-t confidence interval of a given sample of mean differences.
 }
 
