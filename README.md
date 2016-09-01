@@ -1,2 +1,2 @@
 # IincrementalityTEST
-incrementality testing
+incrementality testing for Criteo
