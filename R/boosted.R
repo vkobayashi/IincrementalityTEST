@@ -16,6 +16,7 @@ incrementality_func<-function(datadiff, indices){
 #' This function runs the bootstrap routine.
 #' @param mydatadiff Contains the differences
 #' @param nb_boot Number of bootstrap samples
+#' @param statisticfunc Statistic to be bootstrapped
 #' @return Bootstrap object from package "boot"
 #' @export
 

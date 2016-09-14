@@ -9,6 +9,8 @@ res_boot(mydatadiff, statisticfunc, nb_boot)
 \arguments{
 \item{mydatadiff}{Contains the differences}
 
+\item{statisticfunc}{Statistic to be bootstrapped}
+
 \item{nb_boot}{Number of bootstrap samples}
 }
 \value{
